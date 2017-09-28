@@ -5,6 +5,6 @@ def call(String project) {
     fc.analyze('requirements.txt')
     fc.analyze('setup.py')
 
-    //int dblInt = fc.ModuleNewS2('4000')
-    //println dblInt
+    int dblInt = fc.ModuleNewS2('4000')
+    println dblInt
 }
