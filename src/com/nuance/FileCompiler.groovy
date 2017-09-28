@@ -14,7 +14,7 @@ class FileCompiler implements Serializable {
         this.script.sh("pwd")
     }
 
-    def ModuleNewS2(String s2version) {
+    def verifpara(String s2version) {
         int buildNum = s2version.substring(10) as Integer
         if (buildNum > 3880)
         {

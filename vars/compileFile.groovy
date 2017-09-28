@@ -5,5 +5,7 @@ def call(String project) {
     fc.analyze('requirements.txt')
     fc.analyze('setup.py')
 
-    println(fc.ModuleNewS2('4000'))
+    //println(fc.verifpara('4000'))
+    def var = fc.verifpara('4000')
+    println var
 }
