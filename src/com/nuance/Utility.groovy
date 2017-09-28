@@ -1,6 +1,6 @@
 package com.nuance
 
-class Utility {
+public class Utility {
     
     def verifpara(String s2version) {
         int buildNum = s2version.toInteger()
