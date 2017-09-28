@@ -11,6 +11,6 @@ class FileCompiler implements Serializable {
     
     def analyze(String file) {
         this.script.echo("${project}/${file}")    
-        this.script.sh("cat ${file}")
+        this.script.sh("pwd")
     }
 }
