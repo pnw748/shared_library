@@ -2,7 +2,7 @@ package com.nuance
 
 public class Utility {
     
-    def verifpara(String s2version) {
+    def static verifpara(String s2version) {
         int buildNum = s2version.toInteger()
         // if (buildNum > 3880)
         // {
